@@ -1,0 +1,18 @@
+.target-action-btn {
+    --main-color: #5f6b75;
+    transition-duration: 0.4s;  
+    border: solid var(--main-color);
+    border-radius: 4px;
+    height: 2.5rem;
+    color: var(--main-color);
+}
+
+.target-action-btn:hover {
+    background-color: var(--main-color);
+    color: white;
+}
+
+.target-action-btn__text {
+    font-weight: bold;
+    font-size: 1.3rem;
+}

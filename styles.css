@@ -1,0 +1,75 @@
+@import url('./blocks/nav-bar.css');
+@import url('./blocks/target-action-btn.css');
+@import url('./blocks/reason.css');
+@import url('./blocks/contact-form.css');
+@import url('./blocks/quote.css');
+
+@font-face {
+    font-family: "Helvetica Neue Thin";
+    src: url("./fonts/HelveticaNeueCyr-Thin.woff");
+}
+
+@font-face {
+    font-family: "Amatic SC";
+    src: url("./fonts/AmaticSC-Regular.ttf");
+}
+
+html *
+{
+    font-family: "Helvetica Neue Thin";
+}
+
+p,
+span,
+h1 {
+    font-family: "Helvetica Neue Thin";
+}
+
+body {
+    margin: 0;
+}
+
+.first-section {
+    display: flex;
+    padding: 50px;
+    background-image: url(./images/aaron-burden-4eWwSxaDhe4-unsplash_new.jpg);
+    background-size: cover;
+    min-height: 700px;
+    justify-content: flex-end;
+}
+
+.reasons-section {
+    min-height: 300px;
+    background-color: aliceblue;
+    padding-top: 50px;
+}
+
+.reasons-section__title {
+    margin: 0;
+    text-align: center;
+    font-size: 1.9rem;
+    font-weight: bold;
+}
+
+.reason-list {
+    display: flex;
+    padding: 50px 100px;
+    justify-content: space-evenly;
+}
+
+.third-section {
+    display: flex;
+    background-image: url(./images/beatriz-perez-moya-XN4T2PVUUgk-unsplash.jpg);
+    background-size: cover;
+    height: 900px;
+}
+
+.footer {
+    height: 50px;
+    font-weight: bold;
+    color: white;
+    background-color: #999ea2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,18 @@
+.reason {
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+}
+
+.reason__number {
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #969b8c;
+}
+
+.reason__text {
+    font-size: 1.4rem;
+    text-align: center;
+    padding-top: 20px;
+}

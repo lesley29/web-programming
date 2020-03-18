@@ -1,0 +1,12 @@
+.quote {
+    margin-top: 220px;
+    margin-right: 100px;
+    font-weight: bold;
+    font-size: 2.5rem;
+    width: 500px;
+    font-family: "Amatic SC";
+}
+
+.quote__framing-line {
+    border: 3px solid #969b8c;
+}

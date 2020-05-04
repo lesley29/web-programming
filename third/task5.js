@@ -6,7 +6,6 @@ function createCounter() {
 }
 
 const count = createCounter();
-const count2 = createCounter();
 
 count(); // 1
 count(); // 2

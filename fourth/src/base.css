@@ -1,0 +1,41 @@
+@font-face {
+    font-family: "Helvetica Neue Medium Italic";
+    src: url("./fonts/Helvetica_Neue.ttf");
+}
+
+html *
+{
+    font-family: "Helvetica Neue Medium Italic";
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    margin: 0;
+}
+
+.content-container {
+    background: paleturquoise;
+    width: 100%;
+    padding: 10px 10px;
+}
+
+.pokemon {
+    display: inline-flex;
+    flex-direction: column;
+    border: 0.5px solid peru;
+    padding: 10px 10px;
+    box-sizing: border-box;
+}
+
+/* .pokemon__name {
+    display: inline-block;
+} */
+
+.pokemon__skill-list {
+    margin: 0;
+}

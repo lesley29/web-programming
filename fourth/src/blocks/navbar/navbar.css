@@ -1,0 +1,25 @@
+.navbar {
+    padding: 0 12px;
+    height: 100%;
+    background-color: #181818;
+}
+
+.navbar__list {
+    padding: 0;
+    margin: 0;
+    max-height: 300px;
+}
+
+.navbar__list-item {
+    padding: 10px 0;
+    list-style: none;
+}
+
+.navbar__list-item:hover {
+    transform: scale(1.1);
+}
+
+.my-image {
+    width: 36px;
+    height: 36px;
+}
